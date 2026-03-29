@@ -1,4 +1,4 @@
-FROM Almalinux:9
+FROM almalinux:9
 RUN dnf install nginx -y # Install nginx web server at build time
 EXPOSE 80  # Expose port 80 for HTTP traffic
 CMD ["nginx", "-g", "daemon off;"] # Start nginx in the foreground # it was to keep the container running 
