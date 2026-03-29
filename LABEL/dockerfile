@@ -2,4 +2,4 @@ FROM almalinux:9
 LABEL Course="docker" \
       Trainer="Anusha" \
       Duration="2hrs" \
-      Author="devops"
+      Author="devopscourse"
